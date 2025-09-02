@@ -1,5 +1,6 @@
 export default function MainContent() {
     return (
+        <section id="hero">
         <div className="MainContainer">
           <div className="text">
             <h1>Hello there, I'm Ken <br />A Front-End Developer</h1>
@@ -10,5 +11,6 @@ export default function MainContent() {
             <img src="/src/assets/ken's image.jpg" alt="Ken's Photo" />
           </div>
         </div>
+        </section>
     )
 }
