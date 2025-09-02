@@ -11,26 +11,58 @@ body{
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: white;
 }
 header {
   margin: 0;
 }
+
 header nav {
-  /* position: relative; */
-  padding: 10px;
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  top: 0;
+  align-items: center;   
+  position: relative;    
 }
-header nav a {
+
+header img {
+  width: 100px;
+  height: auto;
+  padding-left: 10px;
+}
+
+.nav-links {
+  position: absolute;    /* center block */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
   color: white;
   text-decoration: none;
   font-weight: normal;
   padding: 6px 9px;
   font-size: large;
 }
-/* header nav a:hover {
+
+.nav-links a:hover {
   background-color: slategray;
-  border-radius: 7px;
-} */
+  border-radius: 15px;
+}
+
+.MainContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.wrapper img{
+  width: 600px;
+  height: 700px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.text p{
+  font-size: 1.7em;
+  line-height: 1.0;
+  color: white;
+}
