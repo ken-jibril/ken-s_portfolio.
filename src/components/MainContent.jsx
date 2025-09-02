@@ -11,6 +11,6 @@ export default function MainContent() {
             <img src="/src/assets/ken's image.jpg" alt="Ken's Photo" />
           </div>
         </div>
-        </section>
+        </section> 
     )
 }

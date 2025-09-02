@@ -10,11 +10,6 @@ body{
   margin: 0;
   background: linear-gradient(45deg, #8e2de2, #4a00e0)
 }
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: white;
-}
 header {
   margin: 0;
 }
@@ -58,9 +53,21 @@ header img {
   justify-content: center;
 }
 .MainContainer {
-  display: flex;
-  justify-content: space-around;
   margin: auto;
+  gap: 40p;
+  display: flex;
+  align-items: center;        
+  justify-content: center;   
+  gap: 40px;                  
+  max-width: 1200px;          
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
 }
 .wrapper img{
   width: 600px;

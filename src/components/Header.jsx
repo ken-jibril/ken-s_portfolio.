@@ -1,5 +1,6 @@
 export default function Header() {
     return (
+        <section id="hero">
         <header>
             <nav>
                 <img src="/src/assets/image__3_-removebg-preview.png" alt="Ken's logo" />
@@ -10,5 +11,6 @@ export default function Header() {
                 </div>
             </nav>
         </header>
+        </section>
     )
 }
